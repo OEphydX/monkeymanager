@@ -1,0 +1,8 @@
+html
+	body
+		h4 DELETE
+		form(action='/delete_monkey', method='POST')
+			p
+				|Nom: 
+				input(type='text', name='name', value='')
+				input(type='submit', value='Delete this ape')

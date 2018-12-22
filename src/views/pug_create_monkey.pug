@@ -1,0 +1,14 @@
+html
+	body
+		h4 CREATE
+		form(action='/create_monkey', method='POST')
+			p
+				|Name: 
+				input(type='text', name='name', value='')
+				|		Weight: 
+				input(type='text', name='weight', value='')
+				|				Color: 
+				input(type='text', name='color', value='')
+				|						Enclosure: 
+				input(type='text', name='nomenclos', value='')
+				input(type='submit', value='Create this ape')
